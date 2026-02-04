@@ -1,10 +1,10 @@
-avatar: https://kira.host/assets/Pictures/Others/20220922230447.jpg # 网站 Logo
+avatar: /images/my_avatar.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: https://kira.host/assets/Pictures/Others/-f0d5cc34c6e5aa7_compressed.jpg
-    width: 1280
-    height: 720
+    path: /images/background.jpg
+    width: 951
+    height: 495
 favicon:
-    href: https://kira.host/assets/Pictures/Others/116359b4ccf19917.jpg # 网站图标
+    href: /images/html.jpg # 网站图标
     type: image/png # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
 
 # 附加图标库 使用说明：https://kira.host/hexo/config/icon.html
@@ -43,17 +43,17 @@ maxTagcloud: 0 # 标签云组件显示的标签数量，0 表示不限制
 
 social:
     QQ:
-        - tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=<去掉尖括号后填上你的QQ号>&website=www.oicqzone.com
+        - tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1665698202&website=www.oicqzone.com
         - icon-QQ
         - rgb(49, 174, 255)
         - rgba(49, 174, 255, .1)
     哔哩哔哩:
-        - https://space.bilibili.com/<改成你的B站uid>
+        - https://space.bilibili.com/508570573
         - icon-bilibili
         - rgb(231, 106, 141)
         - rgba(231, 106, 141, .15)
     GitHub:
-        - https://github.com/<你的github id>/
+        - https://github.com/lriclriel/
         - icon-github
         - rgb(25, 23, 23)
         - rgba(25, 23, 23, .15)
@@ -63,35 +63,35 @@ social:
         - rgb(165, 15, 15)
         - rgba(165, 15, 15, .15)
 
-color: # 配色方案，从first到seventh为优先级为1-7的颜色，默认为彩虹配色
-    first: # 同时作为主题色
-        r: 49
-        g: 174
-        b: 255
+color:
+    first:
+        r: 25
+        g: 35
+        b: 45
     second:
-        r: 255
-        g: 78
-        b: 106
+        r: 140
+        g: 50
+        b: 50
     third:
-        r: 255
-        g: 185
-        b: 0
+        r: 45
+        g: 130
+        b: 90
     fourth:
-        r: 51
-        g: 213
-        b: 122
+        r: 180
+        g: 80
+        b: 20
     fifth:
-        r: 0
-        g: 219
-        b: 255
+        r: 100
+        g: 50
+        b: 130
     sixth:
-        r: 255
-        g: 69
-        b: 0
+        r: 40
+        g: 90
+        b: 150
     seventh:
-        r: 144
-        g: 144
-        b: 255
+        r: 70
+        g: 80
+        b: 90
 
 # 评论区
 gitalk:
@@ -105,7 +105,7 @@ gitalk:
 # 你们不要在这里填我的 giscus 配置项，不然你们博客下的评论会全部跑到我的仓库下面……
 # https://giscus.app/zh-CN 可以在这个网站上手动选择配置填到下方对应位置
 giscus:
-    active: true # 是否启用 giscus
+    active: false # 是否启用 giscus
     repo: -your github username-/-your giscus repo- # 存放评论的 discus 所在的 repo
     repoID: -your giscus repo ID- # GitHub repo ID
     category: Announcements # 选择新 discussions 所在的分类
@@ -113,18 +113,13 @@ giscus:
     mapping: pathname # pathname, url, title, og:title, specific, number
     # term: # abc 123 # specific | number
     theme: light
-    lang: en
+    lang: en 
 
-copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
+#copyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
 # 自定义侧边栏尾部内容
 sidebar: ''
-
-# 自定义样式
-# customStyles:
-#     - style
-#     - custom
 
 # 友链配置
 friends:
@@ -133,4 +128,6 @@ friends:
     #   name: <名称>
 
 # 可复制的代码块
-copyableCodeblock: true
+copyableCodeblock: true 
+
+# 自定义样式
