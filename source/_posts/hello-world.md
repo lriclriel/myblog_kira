@@ -68,7 +68,3 @@ $ git push -u origin main
 ```   
 
 
-
-### 三：替换关键词
-vscode替换关键词： 
-ctrl+H,查找为
